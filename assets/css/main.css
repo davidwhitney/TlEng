@@ -2271,6 +2271,8 @@
 			cursor: default;
 			display: inline-block;
 			margin: 0 0 1.5em 0;
+			height: 44px;
+			width: 204px;
 		}
 
 			.icon.major:before {
