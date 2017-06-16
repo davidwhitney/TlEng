@@ -1,0 +1,22 @@
+{
+  "name": "tl-eng",
+  "version": "1.0.0",
+  "description": "Trainline engineering tech summit 2017 website",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidwhitney/TlEng.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidwhitney/TlEng/issues"
+  },
+  "homepage": "https://github.com/davidwhitney/TlEng#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}

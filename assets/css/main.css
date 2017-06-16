@@ -2287,6 +2287,34 @@
 				line-height: 1em;
 			}
 
+/* Map */
+.mapContainer {
+	position: relative;
+	height: 400px;
+	margin-top: 20px;
+}
+
+.modalMap {
+	background-color: white;
+	color: black;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	z-index: 2;
+	max-width: 300px;
+	padding: 10px;
+	text-align: left;
+	border-radius: 5px;
+}
+
+.modalMap b {
+	color: black !important;
+}
+
+#map {
+	height: 100%;
+}
+
 /* Image */
 
 	.image {
@@ -2797,7 +2825,7 @@
 /* Header */
 
 	#header {
-		padding: 9em 0 9em 0 ;
+		padding: 2em 0 9em 0 ;
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
@@ -3112,7 +3140,7 @@
 		/* Header */
 
 			#header {
-				padding: 6em 0 6em 0 ;
+				padding: 3em 0 3em 0 ;
 			}
 
 	}
@@ -3156,7 +3184,7 @@
 		/* Header */
 
 			#header {
-				padding: 5em 0 5em 0 ;
+				padding: 3em 0 3em 0 ;
 				background-attachment: scroll;
 			}
 
@@ -3198,7 +3226,7 @@
 		/* Header */
 
 			#header {
-				padding: 8em 3em 8em 3em ;
+				padding: 3em 3em 3em 3em ;
 			}
 
 		/* Footer */
@@ -3289,7 +3317,7 @@
 		/* Header */
 
 			#header {
-				padding: 4em 3em 4em 3em ;
+				padding: 3em 3em 3em 3em ;
 			}
 
 				#header .actions {
@@ -3360,7 +3388,7 @@
 		/* Header */
 
 			#header {
-				padding: 4em 2em 4em 2em ;
+				padding: 2em 2em 2em 2em ;
 			}
 
 				#header br {
@@ -3409,7 +3437,7 @@
 		/* Header */
 
 			#header {
-				padding: 3em 1em 3em 1em ;
+				padding: 1em 1em 1em 1em ;
 			}
 
 		/* Footer */
