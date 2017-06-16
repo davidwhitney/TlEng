@@ -21,13 +21,19 @@
 				<div class="inner">
 					<span class="icon major"><img src="https://st1-static-trainlinecontent.ttlnonprod.com/content/ETL/1.19.3/trainline-logo-green@2x.png" alt="" /></span>
 					<h1>Trainline Engineering Summit 2017</h1>
-					<p>Wednesday, 21st June 2017 - 9am - 6:30pm</br>
-					   <a href="https://twitter.com/search?f=tweets&q=%23TrainlineTech17%20%23Engineering" class="icon alt fa-twitter"><span class="label">#TrainlineTech17 #Engineering</span></a><a href="https://twitter.com/search?f=tweets&q=%23TrainlineTech17%20%23Engineering"><span class="label">#TrainlineTech17 #Engineering</span></a></br>
-					   LSO St Luke's, 161 Old Street, London EC1V 9NG
-					</p>
-					<span class="image fit">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.3474325253437!2d-0.09620484868628203!3d51.525187117123544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b57fd61438f%3A0x2cd43387d1ab437b!2sLSO+St.+Luke&#39;s!5e0!3m2!1sen!2suk!4v1497529278415" width="80%" height="80%" frameborder="0" style="border:0" allowfullscreen></iframe>
-					</span>
+					<a target="_blank" href="https://twitter.com/search?f=tweets&q=%23TrainlineTech17%20%23Engineering" class="icon alt fa-twitter"><span class="label">#TrainlineTech17 #Engineering</span></a><a href="https://twitter.com/search?f=tweets&q=%23TrainlineTech17%20%23Engineering"><span class="label">#TrainlineTech17 #Engineering</span></a></br>
+					<div class="mapContainer">
+						<div class="modalMap">
+							Wednesday, 21st June 2017
+							<br/>
+							9am - 6:30pm
+							</br>
+							LSO St Luke's, 161 Old Street, London
+							<br/>
+							<b>EC1V 9NG</b>
+						</div>
+						<div class="image fit" id="map"></div>
+					</div>
 					<ul class="actions">
 						<li><a href="#one" class="button scrolly">Discover</a></li>
 					</ul>
@@ -555,6 +561,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/map.js"></script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJjpmrLld8ZWFVWNL7IUzo1B0xUP9DEGw&callback=initMap"
+			async defer></script>
 	</body>
 </html>
