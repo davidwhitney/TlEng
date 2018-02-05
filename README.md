@@ -1,1 +1,7 @@
-Trainline engineering summit 2017 website
+##Trainline tech summit website
+
+####To run
+
+`npm start` or `yarn start`
+
+
