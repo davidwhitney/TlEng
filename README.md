@@ -1,6 +1,7 @@
-##Trainline tech summit website
+## Trainline tech summit website
 
-####To run
+#### To run
+`npm i`
 
 `npm start` or `yarn start`
 
