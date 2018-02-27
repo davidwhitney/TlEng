@@ -1,25 +1,53 @@
+@font-face {
+    font-family: trainline;
+    src: url(https://static.trainlinecontent.com/content/WEB/fonts/tl-circular-1.0.1/TLCircular-Book.woff2);
+}
+
 html, body {
     height: 100%;
 }
 
-#header {
-    padding: 2em 0 9em 0 ;
+body {
     background-color: #000000;
-    color: #ffffff;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: trainline;
+}
+
+#header {
+    background-image: url('./images/tube-bg-sm.jpg');
+    background-repeat: no-repeat;
+    background-position: 'center';
+    padding: 3em 0 10em 0 ;
 }
 
 #header h1 {
     font-size: 50px;
+    color: #ffffff;
 }
 
-.logo {
-    width: 450px;
-    margin: 30px;
+.inner {
+    margin-top: 20%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.6);
 }
-.intro {
-    font-size: 32px;
+
+.inner .intro p {
+    font-size: 22px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.intro a {
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.intro button {
+    color: #ffffff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 8px;
 }
