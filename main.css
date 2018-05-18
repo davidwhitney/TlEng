@@ -69,17 +69,20 @@ address {
   color: #fff;
   font-size: 24px;
   text-decoration: none;
+  margin: 15px;
 }
 
-.intro button:hover {
+.intro .btn:hover {
   background-color: #017564;
 }
-.intro button {
+.intro .btn {
+  text-align: center;
+  width: 200px;
   color: #ffffff;
   background-color: #01c3a7;
   border: none;
   padding: 20px;
-  margin: 5px;
+  margin: 15px;
   border-radius: 8px;
   font-family: trainline, Arial, Helvetica, sans-serif;
 }
