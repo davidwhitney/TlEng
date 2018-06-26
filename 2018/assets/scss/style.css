@@ -338,11 +338,11 @@ Main Components
 
 .cd-schedule .single-event[data-event='event-3'],
 .cd-schedule [data-event='event-3'] .header-bg {
-  background: #e88085;
+  background: #ff8f1c;
 }
 
 .cd-schedule .single-event[data-event='event-3']:hover {
-  background: #ec969a;
+  background: #ff9c36;
 }
 
 .cd-schedule .single-event[data-event='event-4'],
