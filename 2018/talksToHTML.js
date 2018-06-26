@@ -120,7 +120,7 @@ var talks = [
         "endTime": "17:30"
     },
     {
-        "name": "Cedric",
+        "name": "Cedric Royer-Bertrand",
         "team": "Fusion",
         "type": "longTalk",
         "title": "How AI makes decisions",
@@ -160,7 +160,7 @@ var talks = [
         "endTime": "13:30"
     },
     {
-        "name": "Frederik",
+        "name": "Frederik Brysse",
         "team": "Architecture",
         "type": "longTalk",
         "title": "A deep dive into how hashing can go wrong",
@@ -204,7 +204,7 @@ var talks = [
         "team": "",
         "type": "longTalk",
         "title": "How dependable are your dependencies?",
-        "description": "Open source dominates application development.  It saves hours of programming, giving you more time to innovate. But can you trust code that you did not entirely create yourself?  The biggest breaches are increasingly caused by vulnerabilities in rarely noticed libraries our applications depend upon. Open source components are free but neglecting to comply with their license requirements may result in legal, business, and technical risks. In this talk, you will learn how to analyse your third-party dependencies, inventory your open source licenses and weed out any components that expose your application to known vulnerabilities.",
+        "description": "Open source dominates application development. It saves hours of programming, giving you more time to innovate. But can you trust code that you did not entirely create yourself?  The biggest breaches are increasingly caused by vulnerabilities in rarely noticed libraries our applications depend upon. Open source components are free but neglecting to comply with their license requirements may result in legal, business, and technical risks. In this talk, you will learn how to analyse your third-party dependencies, inventory your open source licenses and weed out any components that expose your application to known vulnerabilities.",
         "order": "6",
         "startTime": "12:30",
         "endTime": "13:00"
@@ -400,7 +400,7 @@ var talks = [
         "endTime": "13:30"
     },
     {
-        "name": "Mark Holt",
+        "name": "Mark Holt - CTO",
         "team": "",
         "type": "longTalk",
         "title": "Custodi Detractione: My beliefs and values",
@@ -410,7 +410,7 @@ var talks = [
         "endTime": "18:00"
     }
 ]
-var lis = talks.filter(talk => !(talk.type === 'lightningTalk')).map(talk => `<li class="single-event" data-start="${talk.startTime}" data-end="${talk.endTime}" data-content="${cleanUpTalkDescription(talk.title)}" data-event="event-${talk.order}">
+var lis = talks.filter(talk => !(talk.type === 'lightningTalk')).map(talk => `<li class="single-event" data-start="${talk.startTime}" data-end="${talk.endTime}" data-content="${cleanUpTalkDescription(talk.title)}" data-event="event-${talk.order % 4 + 1}">
                         <a href="#0">
                             <em class="event-name">${talk.title}</em>
                             <span class="event-person">${talk.name}</span>
