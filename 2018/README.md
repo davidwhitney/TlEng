@@ -2,8 +2,15 @@
 
 Apologies for the messy code, some things of note: 
 
-`index.html` is NOT auto generated, any changes in `talksToHTML` won't affect it, please edit both if possible, otherwise just `index.html`. `talksToHTML` was just a helper to lazily generate some HTML under supervision and then copy pasta it into the index.html for tweaking. (#notoil irony)
+## Updating Talk Titles/Descriptions
 
-Talk Descriptions (to populate the modals) are saved in `assets/js/sched.js` - edit them there
+- Update `talks.json` where necessary.
+- Re-run `talksToHTML.js` (`node talksToHTML.js`).
+- Copypasta the generated HTML into the `index.html` file.
+- Be happy :smile:
 
-Colors and # of rows are saved in `partials/variables`, gotta compile the scsss in order for changes to take effect. (VSCode has some plugins to do that)
+:warning: Talk Descriptions (to populate the modals) are saved in `assets/js/sched.js` - edit them there (we'll probably `#notoil` this at some point).
+
+## The Pretty Colo(u)rs
+
+Colors and # of rows are saved in `partials/variables`, gotta compile the scsss in order for changes to take effect. (VSCode has some plugins to do that).
