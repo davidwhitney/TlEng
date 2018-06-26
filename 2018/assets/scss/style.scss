@@ -393,6 +393,10 @@ Main Components
   transition: transform 0.4s, visibility 0.4s;
   transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
 
+  strong {
+    font-weight: bold;
+  }
+
   .header {
     position: relative;
     height: 70px;
