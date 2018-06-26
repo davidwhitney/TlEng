@@ -320,11 +320,11 @@ Main Components
 .cd-schedule .single-event[data-event='event-1'],
 .cd-schedule [data-event='event-1'] .header-bg {
   /* this is used to set a background color for the event and the modal window */
-  background: #445b84;
+  background: #354352;
 }
 
 .cd-schedule .single-event[data-event='event-1']:hover {
-  background: #4d6795;
+  background: #3f5061;
 }
 
 .cd-schedule .single-event[data-event='event-2'],
@@ -338,20 +338,20 @@ Main Components
 
 .cd-schedule .single-event[data-event='event-3'],
 .cd-schedule [data-event='event-3'] .header-bg {
-  background: #e88085;
+  background: #7c7c7c;
 }
 
 .cd-schedule .single-event[data-event='event-3']:hover {
-  background: #ec969a;
+  background: #898989;
 }
 
 .cd-schedule .single-event[data-event='event-4'],
 .cd-schedule [data-event='event-4'] .header-bg {
-  background: #fbcb5a;
+  background: #fad377;
 }
 
 .cd-schedule .single-event[data-event='event-4']:hover {
-  background: #fcd373;
+  background: #fbdb90;
 }
 
 .cd-schedule .single-event[data-event='event-5'],
