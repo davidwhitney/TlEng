@@ -120,7 +120,7 @@
         "endTime": "17:30"
     },
     {
-        "name": "Cedric",
+        "name": "Cedric Royer-Bertrand",
         "team": "Fusion",
         "type": "longTalk",
         "title": "How AI makes decisions",
@@ -160,7 +160,7 @@
         "endTime": "13:30"
     },
     {
-        "name": "Frederik",
+        "name": "Frederik Brysse",
         "team": "Architecture",
         "type": "longTalk",
         "title": "A deep dive into how hashing can go wrong",
