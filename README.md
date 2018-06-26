@@ -1,5 +1,7 @@
 ## Trainline tech summit website
 
+Check 2018 folder for hacky hints 
+ 
 ### Pre-requisites
 
 - Install node.js to run the website locally
