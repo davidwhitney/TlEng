@@ -45,11 +45,11 @@ var allTalks = [
         "endTime": "17:30"
     },
     {
-        "name": "KANNAPPAN",
+        "name": "Kannappan Somasundaram",
         "team": "Routemaster",
         "type": "lightningTalk",
         "title": "Can you spot the difference?",
-        "description": "We built a comparison framework to capture the differences between old and new journey planners. Come find out how it enabled us to find missing features, defects, served as a reporting tool and helped us to migrate.",
+        "description": "We built a comparison framework to capture the differences between old and new journey planners. Come find out how it helped us to migrate.",
         "startTime": "16:30",
         "endTime": "17:00"
     },
@@ -140,13 +140,13 @@ var allTalks = [
         "room": "gallery"
     },
     {
-        "name": "Dave Storey",
+        "name": "Dave Storey & Wojciech Kotlarski",
         "team": "Routemaster",
         "type": "longTalk",
         "title": "How to test in isolation",
         "description": "In Trainline we constantly seem to be testing each others systems. In this talk we'll try to educate people on identifying domain responsibility boundries, how to mock and when to mock.",
-        "startTime": "13:00",
-        "endTime": "13:30",
+        "startTime": "12:00",
+        "endTime": "12:30",
         "room": "st-pancras"
     },
     {
@@ -155,8 +155,8 @@ var allTalks = [
         "type": "longTalk",
         "title": "A deep dive into how hashing can go wrong",
         "description": "How not to make a hash out of hashing.",
-        "startTime": "12:00",
-        "endTime": "12:30",
+        "startTime": "13:00",
+        "endTime": "13:30",
         "room": "st-pancras"
     },
     {
@@ -290,31 +290,31 @@ var allTalks = [
         "room": "hall-1"
     },
     {
-        "name": "Rob Cooper",
+        "name": "",
         "team": "Principals",
         "type": "longTalk",
-        "title": "Culture vNext",
-        "description": "What's all this 'Culture of Craft' stuff? What's going on with Communities?\nAll shall be revealed!",
+        "title": "",
+        "description": "",
         "startTime": "10:30",
         "endTime": "11:00",
         "room": "hall-2"
     },
     {
-        "name": "Rob Cooper",
-        "team": "Principals",
+        "name": "",
+        "team": "",
         "type": "longTalk",
-        "title": "Culture vNext",
-        "description": "What's all this 'Culture of Craft' stuff? What's going on with Communities?\nAll shall be revealed!",
+        "title": "",
+        "description": "",
         "startTime": "10:30",
         "endTime": "11:00",
         "room": "st-pancras"
     },
     {
-        "name": "Rob Cooper",
-        "team": "Principals",
+        "name": "",
+        "team": "",
         "type": "longTalk",
-        "title": "Culture vNext",
-        "description": "What's all this 'Culture of Craft' stuff? What's going on with Communities?\nAll shall be revealed!",
+        "title": "",
+        "description": "",
         "startTime": "10:30",
         "endTime": "11:00",
         "room": "gallery"
@@ -375,8 +375,8 @@ var allTalks = [
         "type": "longTalk",
         "title": "Identifying and addressing toil in teams",
         "description": "Starting work in a new team allows to identify pains that existing members may not see any more. Trainline's Principal role involves working with different teams and it gives that unique opportunity to have that fresh view. I will go through some examples of toil I encountered over time, putting some light on how they were identified and addressed.",
-        "startTime": "12:00",
-        "endTime": "12:30",
+        "startTime": "13:00",
+        "endTime": "13:30",
         "room": "hall-2"
     },
     {
@@ -390,31 +390,31 @@ var allTalks = [
         "room": "hall-1"
     },
     {
-        "name": "Glenn Block",
-        "team": "Auth0",
+        "name": "",
+        "team": "",
         "type": "longTalk",
-        "title": "TBC",
-        "description": "Glenn Block from Auth0 coming in to do a talk.",
+        "title": "",
+        "description": "",
         "startTime": "11:00",
         "endTime": "11:30",
         "room": "hall-2"
     },
     {
-        "name": "Glenn Block",
-        "team": "Auth0",
+        "name": "",
+        "team": "",
         "type": "longTalk",
-        "title": "TBC",
-        "description": "Glenn Block from Auth0 coming in to do a talk.",
+        "title": "",
+        "description": "",
         "startTime": "11:00",
         "endTime": "11:30",
         "room": "st-pancras"
     },
     {
-        "name": "Glenn Block",
-        "team": "Auth0",
+        "name": "",
+        "team": "",
         "type": "longTalk",
-        "title": "TBC",
-        "description": "Glenn Block from Auth0 coming in to do a talk.",
+        "title": "",
+        "description": "",
         "startTime": "11:00",
         "endTime": "11:30",
         "room": "gallery"
@@ -445,8 +445,8 @@ var allTalks = [
         "type": "longTalk",
         "title": "Sight Reading Code",
         "description": "Find out what your code says about you, and how you can treat a codebase like a crime scene to understand how software is built, in any language, in any application.",
-        "startTime": "13:00",
-        "endTime": "13:30",
+        "startTime": "12:00",
+        "endTime": "12:30",
         "room": "hall-2"
     },
     {
