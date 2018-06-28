@@ -2259,14 +2259,9 @@ button.small,
 }
 
 #banner .inner {
-  -webkit-animation: reveal-banner 1s 0.25s ease-in-out;
-  animation: reveal-banner 1s 0.25s ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
   background: rgba(209, 255, 248, 0.4);
   color: #fff;
   display: inline-block;
-  opacity: 0;
   padding: 3em;
   text-align: center;
 }

@@ -965,12 +965,9 @@ $pattern-background-size: 25em;
 		text-align: center;
 
 		.inner {
-			@include vendor('animation', 'reveal-banner 1s 0.25s ease-in-out');
-			@include vendor('animation-fill-mode', 'forwards');
 			background: transparentize(_palette(banner, inner-bg), 0.6);
 			color: _palette(banner, inner-fg);
 			display: inline-block;
-			opacity: 0;
 			padding: 3em;
 			text-align: center;
 
