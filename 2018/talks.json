@@ -544,7 +544,7 @@
         "team": "",
         "type": "longTalk",
         "title": "Lunch",
-        "description": "",
+        "description": "Lunch will be served in the lobby and mezzanine. Enjoy the nibbles, re-energise, and get some fresh air!",
         "startTime": "13:30",
         "endTime": "14:30",
         "room": "hall-1"
@@ -554,7 +554,7 @@
         "team": "",
         "type": "longTalk",
         "title": "Lunch",
-        "description": "",
+        "description": "Lunch will be served in the lobby and mezzanine. Enjoy the nibbles, re-energise, and get some fresh air!",
         "startTime": "13:30",
         "endTime": "14:30",
         "room": "hall-2"
@@ -564,7 +564,7 @@
         "team": "",
         "type": "longTalk",
         "title": "Lunch",
-        "description": "",
+        "description": "Lunch will be served in the lobby and mezzanine. Enjoy the nibbles, re-energise, and get some fresh air!",
         "startTime": "13:30",
         "endTime": "14:30",
         "room": "st-pancras"
@@ -574,17 +574,7 @@
         "team": "",
         "type": "longTalk",
         "title": "Lunch",
-        "description": "",
-        "startTime": "13:30",
-        "endTime": "14:30",
-        "room": "gallery"
-    },
-    {
-        "name": "",
-        "team": "",
-        "type": "longTalk",
-        "title": "Lunch",
-        "description": "lunch",
+        "description": "Lunch will be served in the lobby and mezzanine. Enjoy the nibbles, re-energise, and get some fresh air!",
         "startTime": "13:30",
         "endTime": "14:30",
         "room": "gallery"
@@ -644,7 +634,7 @@
         "team": "",
         "type": "longTalk",
         "title": "Closing Remarks and Drinks 🍻",
-        "description": "closing",
+        "description": "",
         "startTime": "18:00",
         "endTime": "18:30",
         "room": "hall-1"
@@ -654,7 +644,7 @@
         "team": "",
         "type": "longTalk",
         "title": "Closing Remarks and Drinks 🍻",
-        "description": "closing",
+        "description": "",
         "startTime": "18:00",
         "endTime": "18:30",
         "room": "hall-2"
@@ -664,7 +654,7 @@
         "team": "",
         "type": "longTalk",
         "title": "Closing Remarks and Drinks 🍻",
-        "description": "closing",
+        "description": "",
         "startTime": "18:00",
         "endTime": "18:30",
         "room": "st-pancras"
@@ -674,7 +664,7 @@
         "team": "",
         "type": "longTalk",
         "title": "Closing Remarks and Drinks 🍻",
-        "description": "closing",
+        "description": "",
         "startTime": "18:00",
         "endTime": "18:30",
         "room": "gallery"

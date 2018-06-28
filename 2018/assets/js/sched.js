@@ -98,13 +98,9 @@ jQuery(document).ready(function ($) {
 
         for (var i = 0; i < lightningTalks.length; i++) {
             var slot = getLightningSlot(lightningTalks[i]);
-            console.log('Adding Lightning Talk ' + lightningTalks[i].title);
-            console.log(slot[0]);
             var desc = slot.data('description');
             var el = getLightningTalkElement(lightningTalks[i]);
-            console.log(el[0]);
             slot.data('description', desc + el.html());
-            console.log(slot.data('description'));
         }
 
         var transitionEnd = 'webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend';
