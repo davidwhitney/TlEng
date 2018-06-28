@@ -224,7 +224,7 @@
         "team": "Hydra",
         "type": "longTalk",
         "title": "The Automation Generation",
-        "description": "We created a tool to generate the release notes for each release automatically and save ourselves a lot of manual effort. Along the way we realised that the problem we were solving shouldn't have been a problem in the first place; it was an indicator of a broken agile process",
+        "description": "We created a tool to generate the release notes for each release automatically and save ourselves a lot of manual effort. Along the way we realised that the problem we were solving shouldn't have been a problem in the first place; it was an indicator of a broken agile process.",
         "startTime": "17:00",
         "endTime": "17:30",
         "room": "st-pancras"
