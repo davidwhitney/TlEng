@@ -1,5 +1,5 @@
-@import 'libs/vars';
 @import 'libs/functions';
+@import 'libs/vars';
 @import 'libs/mixins';
 @import 'libs/vendor';
 @import 'libs/breakpoints';
@@ -1755,5 +1755,5 @@ $pattern-background-size: 25em;
 					}
 				}
 			}
-
+	.hide { display: none; }
 	}
