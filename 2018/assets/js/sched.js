@@ -350,11 +350,11 @@ var allTalks = [
         "room": "st-pancras"
     },
     {
-        "name": "Team YLD",
+        "name": "Sam Galson - YLD",
         "team": "YLD",
         "type": "longTalk",
-        "title": "YLD - tbc",
-        "description": "YLD - tbc",
+        "title": "The dream of the automatic book: remembering MetaFont",
+        "description": "Why is Donald Knuth's multivolume masterpiece, the Art of Computer Programming, still unfinished? The answer is that, dissatisfied with his books' physical form, Knuth paused work in order to automate some of the more toilsome aspects of book production: typesetting and font creation. So were born LaTeX and MetaFont. Let's talk about automation philosophy and technology.",
         "startTime": "12:00",
         "endTime": "12:30",
         "room": "hall-1"
@@ -430,11 +430,11 @@ var allTalks = [
         "room": "st-pancras"
     },
     {
-        "name": "Team YLD",
+        "name": "Jérome Loï, Sara Vieira, Sam Galson, Quentin Leonetti of YLD",
         "team": "YLD",
         "type": "workshop",
-        "title": "Robots Terminating Toil",
-        "description": "YLD are going to do a workshop on robots.",
+        "title": "YLD Catbots Workshop",
+        "description": "<p>Join hands-on open-source workshop by YLD to build your own nodebot – catbot!</p><p>During this workshop you will assemble custom-made parts of wood, arduino hardware and a laser that powered by Node.JS becomes the ultimate cat-laserpointer tool! Watch <a href=\"https://youtu.be/6tOPI7YGPjM\" target=\"_blank\">previous catbots workshop at LX.JS conference</a>.</p><p>Here are the steps to create the ultimate connected catbot:<ol class=\"with-bullets\">        <li>Build the <a href=\"http://yld.lesnodebots.eu/catbot/v4\" target=\"_blank\">frame</a>.</li>        <li>Connect the <a href=\"http://yld.lesnodebots.eu/catbot/connect/\" target=\"_blank\">hardware</a>.</li>        <li><a href=\"http://yld.lesnodebots.eu/catbot/test/\" target=\"_blank\">Test it</a>.</li>        <li>You are ready for the <a href=\"http://yld.lesnodebots.eu/catbot/lasercat\" target=\"_blank\">lasercat workshop</a>.</li>        <li><a href=\"http://yld.lesnodebots.eu/catbot/troubleshooting\" target=\"_blank\">Troubleshoot</a> if you get any problem on the way!</li>    </ol></p><h5>About YLD</h5><p>YLD is a proud partner of the Trainline Tech Summit. We are excited to be here today and look forward to seeing you at our hands-on open-source catbot workshop.</p><p>YLD is a strategy, design and engineering consultancy enabling the world’s leading enterprises to drive digital transformation and create innovation at the core, together. Through a ground-up style of consultancy, we partner with our clients and help them create their technology future.</p>",
         "startTime": "14:30",
         "endTime": "16:30",
         "room": "gallery"
@@ -450,7 +450,7 @@ var allTalks = [
         "room": "hall-2"
     },
     {
-        "name": "Mark Holt",
+        "name": "Mark Holt - CTO",
         "team": "",
         "type": "longTalk",
         "title": "Custodi Detractione: My beliefs and values",
