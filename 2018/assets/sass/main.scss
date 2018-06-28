@@ -544,6 +544,7 @@ $pattern-background-size: 25em;
 			padding-left: 0.5em;
 		}
 	}
+	
 
 /* Icons */
 
@@ -1631,6 +1632,13 @@ $pattern-background-size: 25em;
 						width: 1.1em;
 					}
 				}
+			}
+
+			/* Timings List */
+
+			ul.timings {
+				list-style-type: none;
+				padding-left: 0;
 			}
 
 		/* Buttons */
