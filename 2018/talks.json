@@ -83,7 +83,7 @@
     {
         "name": "Janos Ver",
         "team": "Tango",
-        "type": "lightningTalk,",
+        "type": "lightningTalk",
         "title": "How we made requirement analysis transparent",
         "description": "One of the pillars of Scrum is transparency. We wanted to extend that to requirement analysis too. In this talk I will explain how we did it.",
         "startTime": "17:00",
