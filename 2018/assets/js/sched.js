@@ -58,7 +58,7 @@ var allTalks = [
         "team": "25kv",
         "type": "lightningTalk",
         "title": "How we deal with production fails in EU",
-        "description": "Production is not perfect. Networks lose packets, developers break carrier APIs, bugs go live.  S**** happens. Come learn how the EU platform folks deal with the eventualities that plague a high traffic system.",
+        "description": "Production is not perfect. Networks lose packets, developers break carrier APIs, bugs go live. 💩 happens. Come learn how the EU platform folks deal with the eventualities that plague a high traffic system.",
         "startTime": "16:30",
         "endTime": "17:00"
     },
