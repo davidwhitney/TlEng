@@ -234,7 +234,7 @@
         "team": "Hydra",
         "type": "longTalk",
         "title": "The Automation Generation",
-        "description": "We used to have to manually copy and paste notes pertaining to each release from TeamCity to JIRA. I'll talk about how we solved all our headaches using computers.",
+        "description": "We created a tool to generate the release notes for each release automatically and save ourselves a lot of manual effort. Along the way we realised that the problem we were solving shouldn't have been a problem in the first place; it was an indicator of a broken agile process",
         "order": "12",
         "startTime": "17:00",
         "endTime": "17:30"
