@@ -1,8 +1,8 @@
 var rooms = {
-    'hall-1': 'Hall 1',
-    'hall-2': 'Hall 2',
-    'st-pancras': 'St. Pancras',
-    'gallery': 'Gallery'
+    'hall-1': { name: 'Hall 1', talks: [] },
+    'hall-2': { name: 'Hall 2', talks: [] },
+    'st-pancras': { name: 'St. Pancras', talks: [] },
+    'gallery': { name: 'Gallery', talks: [] }
 };
 
 function getEventType(talk) {
@@ -45,7 +45,7 @@ jQuery(document).ready(function ($) {
     for (var room in rooms) {
         var clone = templates.children(".room").clone();
         clone.addClass(room);
-        clone.find(".name").text(rooms[room]);
+        clone.find(".name").text(rooms[room].name);
         clone.appendTo(container);
     }
 
@@ -64,22 +64,31 @@ jQuery(document).ready(function ($) {
                 continue;
             }
 
-            // need to handle these - insight from Eli:
-            // what i had done is call them lightning1 ,2 and 3 and just have the descriptions for each have 3 descriptions
-            // need to merge the talk descriptions into the 'lightningTalks' with same start/end times.
-            var eventEl = templates.find(".talk .single-event").first().clone();
-            eventEl
-                .attr('data-start', talk.startTime)
-                .attr('data-end', talk.endTime)
-                .attr('data-type', talk.type)
-                .attr('data-event', 'event-' + getEventType(talk));
-            eventEl.data('description', talk.description);
-            eventEl.find(".event-name").text(talk.title);
-            eventEl.find(".event-person").text(talk.name);
+            rooms[talk.room].talks.push(talk);
+        }
 
-            if (typeof (talk.room) === "undefined") talk.room = "hall-1";
-            var selector = ".room." + talk.room + " .events-group ul";
-            eventEl.appendTo(container.find(selector).first());
+        // Add the talks from each room to the DOM
+        for (var room in rooms) {
+            var talks = rooms[room].talks.sort(function (a, b) {
+                return a.startTime.replace(':', '') - b.startTime.replace(':', '');
+            });
+
+            for (var i = 0; i < talks.length; i++) {
+                var talk = talks[i];
+                var eventEl = templates.find(".talk .single-event").first().clone();
+                eventEl
+                    .attr('data-start', talk.startTime)
+                    .attr('data-end', talk.endTime)
+                    .attr('data-type', talk.type)
+                    .attr('data-event', 'event-' + getEventType(talk));
+                eventEl.data('description', talk.description);
+                eventEl.find(".event-name").text(talk.title);
+                eventEl.find(".event-person").text(talk.name);
+
+                if (typeof (talk.room) === "undefined") talk.room = "hall-1";
+                var selector = ".room." + talk.room + " .events-group ul";
+                eventEl.appendTo(container.find(selector).first());
+            }
         }
 
         // Now we've added all the slots, we can process the lightning talks.
