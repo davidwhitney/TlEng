@@ -6,8 +6,7 @@ Primary style
 *,
 *::after,
 *::before {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -111,8 +110,7 @@ Main Components
   }
   .cd-schedule .timeline li span {
     display: inline-block !important;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
   }
   .cd-schedule .timeline li:nth-of-type(2n) span {
     display: none;
@@ -145,8 +143,6 @@ Main Components
   position: relative;
   padding: 0 5%;
   /* force its children to stay on one line */
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   overflow-x: scroll;
   -webkit-overflow-scrolling: touch;
@@ -164,16 +160,13 @@ Main Components
 
 .cd-schedule .events .single-event {
   /* force them to stay on one line */
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   float: left;
   height: 150px;
   width: 70%;
   max-width: 300px;
-  -webkit-box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.2);
   margin-right: 20px;
-  -webkit-transition: opacity 0.2s, background 0.2s;
   transition: opacity 0.2s, background 0.2s;
 }
 
@@ -248,11 +241,9 @@ Main Components
     /* top position and height will be set using js */
     width: calc(100% + 2px);
     left: -1px;
-    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), inset 0 -3px 0 rgba(0, 0, 0, 0.2);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), inset 0 -3px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), inset 0 -3px 0 rgba(0, 0, 0, 0.2);
     /* reset style */
-    -ms-flex-negative: 1;
-        flex-shrink: 1;
+    flex-shrink: 1;
     height: auto;
     max-width: none;
     margin-right: 0;
@@ -382,16 +373,10 @@ Main Components
   width: 100%;
   visibility: hidden;
   /* Force Hardware acceleration */
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
-  -webkit-transition: visibility 0.4s, -webkit-transform 0.4s;
-  transition: visibility 0.4s, -webkit-transform 0.4s;
+  transform: translateZ(0);
+  transform: translateX(100%);
   transition: transform 0.4s, visibility 0.4s;
-  transition: transform 0.4s, visibility 0.4s, -webkit-transform 0.4s;
-  -webkit-transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
-          transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+  transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
 }
 
 .cd-schedule .event-modal strong {
@@ -464,14 +449,12 @@ Main Components
 .cd-schedule .event-modal .body-bg {
   z-index: 1;
   background: white;
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
+  transform-origin: top left;
 }
 
 .cd-schedule .event-modal .header-bg {
   z-index: 2;
-  -webkit-transform-origin: top center;
-          transform-origin: top center;
+  transform-origin: top center;
 }
 
 .cd-schedule .event-modal .close {
@@ -503,13 +486,11 @@ Main Components
 }
 
 .cd-schedule .event-modal .close::before {
-  -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
-          transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
 }
 
 .cd-schedule .event-modal .close::after {
-  -webkit-transform: translateX(-50%) translateY(-50%) rotate(-45deg);
-          transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+  transform: translateX(-50%) translateY(-50%) rotate(-45deg);
 }
 
 .cd-schedule .event-modal .event-date {
@@ -517,13 +498,11 @@ Main Components
 }
 
 .cd-schedule .event-modal.no-transition {
-  -webkit-transition: none;
   transition: none;
 }
 
 .cd-schedule .event-modal.no-transition .header-bg,
 .cd-schedule .event-modal.no-transition .body-bg {
-  -webkit-transition: none;
   transition: none;
 }
 
@@ -533,15 +512,10 @@ Main Components
     right: auto;
     width: auto;
     height: auto;
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
+    transform: translateX(0);
     will-change: transform, width, height;
-    -webkit-transition: height 0.4s, width 0.4s, visibility 0.4s, -webkit-transform 0.4s;
-    transition: height 0.4s, width 0.4s, visibility 0.4s, -webkit-transform 0.4s;
     transition: height 0.4s, width 0.4s, transform 0.4s, visibility 0.4s;
-    transition: height 0.4s, width 0.4s, transform 0.4s, visibility 0.4s, -webkit-transform 0.4s;
-    -webkit-transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
-            transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
   }
   .cd-schedule .event-modal .header {
     position: absolute;
@@ -565,24 +539,17 @@ Main Components
   .cd-schedule .event-modal .header-bg,
   .cd-schedule .event-modal .body-bg {
     /* Force Hardware acceleration */
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
+    transform: translateZ(0);
     will-change: transform;
-    -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
+    backface-visibility: hidden;
   }
   .cd-schedule .event-modal .header-bg {
-    -webkit-transition: -webkit-transform 0.4s;
-    transition: -webkit-transform 0.4s;
     transition: transform 0.4s;
-    transition: transform 0.4s, -webkit-transform 0.4s;
-    -webkit-transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
-            transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
   }
   .cd-schedule .event-modal .body-bg {
     opacity: 0;
-    -webkit-transform: none;
-            transform: none;
+    transform: none;
   }
   .cd-schedule .event-modal .event-date {
     display: block;
@@ -610,8 +577,7 @@ Main Components
 
 .cd-schedule.modal-is-open .event-modal {
   /* .modal-is-open class is added as soon as an event is selected */
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
   visibility: visible;
 }
 
@@ -626,17 +592,12 @@ Main Components
     /* 	the .animation-completed class is added when the modal animation is completed
 			the .content-loaded class is added when the modal content has been loaded (using ajax) */
     opacity: 1;
-    -webkit-transition: opacity 0.2s;
     transition: opacity 0.2s;
   }
   .cd-schedule.modal-is-open .body-bg {
     opacity: 1;
-    -webkit-transition: -webkit-transform 0.4s;
-    transition: -webkit-transform 0.4s;
     transition: transform 0.4s;
-    transition: transform 0.4s, -webkit-transform 0.4s;
-    -webkit-transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
-            transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
   }
 }
 
@@ -651,7 +612,6 @@ Main Components
   background: rgba(0, 0, 0, 0.8);
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: opacity 0.4s, visibility 0.4s;
   transition: opacity 0.4s, visibility 0.4s;
 }
 
