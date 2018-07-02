@@ -67,7 +67,7 @@ var allTalks = [
         "team": "DietCode",
         "type": "lightningTalk",
         "title": "Information Handshake",
-        "description": "Come learn how important it is to acknowledge information received and how to check if what we have done actually works as a way to remove toil on having to deal with bugs and repeated tickets to have to handle the same thing all over again. If the Internet does it, why shouldn’t we?",
+        "description": "Come learn how important it is to acknowledge the information we receive daily as a way to remove toil. Live in a better world where fewer misunderstandings and bugs exist and avoid doing the same work over and over again.",
         "startTime": "15:10",
         "endTime": "15:40"
     },
@@ -233,7 +233,7 @@ var allTalks = [
         "name": "Nisha Chaganlal",
         "team": "DietCode",
         "type": "longTalk",
-        "title": "Team Remoting 1 step ahead",
+        "title": "Remote Teams - 1 step ahead",
         "description": "Challenges and how to overcome them by removing toil on comms and execution when working in remote teams",
         "startTime": "16:30",
         "endTime": "17:00",
