@@ -383,8 +383,8 @@ var allTalks = [
         "name": "Glenn Block",
         "team": "Auth0",
         "type": "longTalk",
-        "title": "TBC",
-        "description": "Glenn Block from Auth0 coming in to do a talk.",
+        "title": "Serverless Extensibility: Rapid feature delivery at a fraction of the cost",
+        "description": "As a SaaS, you need to deliver fast in order to stay competitive, but at what cost? Fast delivery can often go hand and hand with large up-front investments and ongoing operational cost and overhead. Serverless Extensibility is changing that. By leveraging a Serverless platform within a SaaS, new doors are opened. Feature delivery can dramatically accelerate, and customers can even be enabled to directly build the features they want, without the cost. In this talk will discuss this exciting new advancement and see how it is enabling more and more organizations to get an edge.",
         "startTime": "11:00",
         "endTime": "11:30",
         "room": "hall-1"
