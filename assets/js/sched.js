@@ -107,7 +107,7 @@ var allTalks = [
         "description": "Writing async code is not just about using the async/await keywords. We’ll go through the common issues found in our code and how to properly write efficient and correct async code. The talk will also cover the great new features of .NET Core to improve performance which you can now leverage on every project",
         "startTime": "16:30",
         "endTime": "17:00",
-        "room": "gallery"
+        "room": "hall-2"
     },
     {
         "name": "Cedric Royer-Bertrand",
@@ -137,7 +137,7 @@ var allTalks = [
         "description": "Why is there a trainline.com and a trainline.eu?  What's different about Brussels-Midi and Bruges? And what does \"SGP\" really mean anyway?  This session explains the mechanics, magic and sheer stubbornness of will employed by the Connections/Magnum team to help make SGP a reality.",
         "startTime": "16:00",
         "endTime": "16:30",
-        "room": "gallery"
+        "room": "hall-2"
     },
     {
         "name": "Dave Storey & Wojciech Kotlarski",
@@ -157,7 +157,7 @@ var allTalks = [
         "description": "How not to make a hash out of hashing.",
         "startTime": "12:20",
         "endTime": "12:50",
-        "room": "st-pancras"
+        "room": "gallery"
     },
     {
         "name": "Ian Randolph",
@@ -167,7 +167,7 @@ var allTalks = [
         "description": "Talk will focus on actionable techniques for improving team design when it comes to structure, accountability, communication, ceremonies, and culture and share learnings from 3 years of Tango structuring and re-structuring to meet the next challenge.",
         "startTime": "12:20",
         "endTime": "12:50",
-        "room": "hall-2"
+        "room": "st-pancras"
     },
     {
         "name": "Imtiyaz Mohammad",
@@ -187,7 +187,7 @@ var allTalks = [
         "description": "When production breaks the time to recover it is directly related to the amount of toil associated with understanding the state of our platform. To reduce this toil we have sought truth on a journey via Russia and North Korea. Along the route we have wrestled Pandas, used a lot of Greek sticky tape, questioned our own sanity and bred a bigger faster brood of deer.",
         "startTime": "11:50",
         "endTime": "12:20",
-        "room": "gallery"
+        "room": "hall-1"
     },
     {
         "name": "Jerry Wozniak",
@@ -197,7 +197,7 @@ var allTalks = [
         "description": "Open source dominates application development.  It saves hours of programming, giving you more time to innovate. But can you trust code that you did not entirely create yourself?  The biggest breaches are increasingly caused by vulnerabilities in rarely noticed libraries our applications depend upon. Open source components are free but neglecting to comply with their license requirements may result in legal, business, and technical risks. In this talk, you will learn how to analyse your third-party dependencies, inventory your open source licenses and weed out any components that expose your application to known vulnerabilities.",
         "startTime": "12:20",
         "endTime": "12:50",
-        "room": "hall-1"
+        "room": "hall-2"
     },
     {
         "name": "Luke Belfield",
@@ -227,7 +227,7 @@ var allTalks = [
         "description": "We created a tool to generate the release notes for each release automatically and save ourselves a lot of manual effort. Along the way we realised that the problem we were solving shouldn't have been a problem in the first place; it was an indicator of a broken agile process.",
         "startTime": "16:30",
         "endTime": "17:00",
-        "room": "st-pancras"
+        "room": "gallery"
     },
     {
         "name": "Nisha Chaganlal",
@@ -237,7 +237,7 @@ var allTalks = [
         "description": "Challenges and how to overcome them by removing toil on comms and execution when working in remote teams",
         "startTime": "16:30",
         "endTime": "17:00",
-        "room": "hall-2"
+        "room": "st-pancras"
     },
     {
         "name": "Orazio Cotroneo",
@@ -267,7 +267,7 @@ var allTalks = [
         "description": "This brief history of deployment methods will make you discover an evolution of technologies for shipping code to production. You will also find out about an alternative future where we tried to deploy Trainline Europe in Kubernetes, what we learned and what goodies it could bring us.",
         "startTime": "12:20",
         "endTime": "12:50",
-        "room": "gallery"
+        "room": "hall-1"
     },
     {
         "name": "Piotr Ratajczak",
@@ -275,9 +275,9 @@ var allTalks = [
         "type": "longTalk",
         "title": "Introduction to Rail Ticketing",
         "description": "Why do we pretend to be train station? What do we have in common with The Beatles? Intro to what are Print Windows, NLCs, LENNON, SDCI+, LSM, Type06, eTVD and more. Brief overview of fulfilment methods in the UK.",
-        "startTime": "17:00",
-        "endTime": "17:30",
-        "room": "hall-2"
+        "startTime": "16:00",
+        "endTime": "16:30",
+        "room": "gallery"
     },
     {
         "name": "Rob Cooper",
@@ -327,7 +327,7 @@ var allTalks = [
         "description": "Feeling too busy? Overworked? Not enough hours in the day? Not all toil is code/project based. It starts with you. Tools, techniques and routines to help you get the most from you and your day.",
         "startTime": "16:00",
         "endTime": "16:30",
-        "room": "hall-2"
+        "room": "st-pancras"
     },
     {
         "name": "Robert Munro",
@@ -345,9 +345,9 @@ var allTalks = [
         "type": "longTalk",
         "title": "Getting the most out of Akamai, or 'Can't Someone Else Do It?'",
         "description": "A basic overview of Akamai, Ion & CDNs in general, and how to set up your apps to get the most benefit as we expand globally",
-        "startTime": "16:00",
-        "endTime": "16:30",
-        "room": "st-pancras"
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "room": "hall-2"
     },
     {
         "name": "Sam Galson - YLD",
@@ -357,7 +357,7 @@ var allTalks = [
         "description": "Why is Donald Knuth's multivolume masterpiece, the Art of Computer Programming, still unfinished? The answer is that, dissatisfied with his books' physical form, Knuth paused work in order to automate some of the more toilsome aspects of book production: typesetting and font creation. So were born LaTeX and MetaFont. Let's talk about automation philosophy and technology.",
         "startTime": "11:50",
         "endTime": "12:20",
-        "room": "hall-1"
+        "room": "gallery"
     },
     {
         "name": "Tomasz Rykała",
