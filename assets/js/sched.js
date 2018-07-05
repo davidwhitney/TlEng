@@ -280,18 +280,18 @@ var allTalks = [
         "room": "gallery"
     },
     {
-        "name": "Rob Cooper",
-        "team": "Principals",
+        "name": "Jonathan Midgley, David Stanley & Rob Cooper",
+        "team": "Leadership & Principals",
         "type": "longTalk",
-        "title": "Culture vNext",
-        "description": "What's all this 'Culture of Craft' stuff? What's going on with Communities?\nAll shall be revealed!",
+        "title": "Intro. & Culture vNext",
+        "description": "Introduction from Jonathan and David, followed by a short talk on our Culture of Craft from Rob.",
         "startTime": "10:30",
         "endTime": "11:00",
         "room": "hall-1"
     },
     {
         "name": "",
-        "team": "Principals",
+        "team": "",
         "type": "longTalk",
         "title": "",
         "description": "",
