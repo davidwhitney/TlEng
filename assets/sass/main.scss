@@ -779,12 +779,6 @@ table {
       background: _palette(fg);
       color: #fff;
     }
-
-    tfoot {
-    }
-
-    tbody {
-    }
   }
 }
 
@@ -1727,7 +1721,11 @@ body.index #main {
   }
 
   p {
-    text-align: justify;
+    text-align: center;
+  }
+
+  .timings {
+    text-align: left;
   }
 
   /* Section/Article */
